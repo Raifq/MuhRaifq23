@@ -1,0 +1,91 @@
+<!--
+Nama : Muh Raifq Ananta R
+Kelas:SI01
+NIM  : 24.12.3122
+-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Kerjasama</title>
+  <style>
+  </style>
+  <link href="kerjasama.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="kerjasama.html">Kerjasama</a>
+  </nav>
+
+  <header>
+    <h1>Kerjasama</h1>
+  </header>
+
+  <div class="container">
+    <h2>Formulir Penawaran Kerjasama</h2>
+    <form>
+      <div class="form-group">
+        <label>Nama</label>
+        <input type="text" name="nama">
+      </div>
+      <div class="form-group">
+        <label>Alamat</label>
+        <input type="text" name="alamat">
+      </div>
+      <div class="form-group">
+        <label>No. WA</label>
+        <input type="text" name="wa">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email">
+      </div>
+      <div class="form-group">
+        <label>Jenis Kelamin</label>
+        <div class="radio-group">
+          <label><input type="radio" name="gender" value="Laki-Laki"> Laki-Laki</label>
+          <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Bidang Kerjasama</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="bidang" value="Multimedia"> Multimedia</label>
+          <label><input type="checkbox" name="bidang" value="Web Dev"> Web Dev</label>
+          <label><input type="checkbox" name="bidang" value="Fundis"> Fundis</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>File Penawaran</label>
+        <input type="file" name="file">
+      </div>
+      <div class="form-group">
+        <label>Tanggal Pelaksanaan</label>
+        <input type="date" name="tanggal">
+      </div>
+      <div class="form-group">
+        <label>Domisili</label>
+        <select name="domisili">
+          <option>Pilih Domisili</option>
+          <option>Jakarta</option>
+          <option>Bandung</option>
+          <option>Surabaya</option>
+        </select>
+      </div>
+      <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    Footer
+  </footer>
+
+</body>
+</html>
